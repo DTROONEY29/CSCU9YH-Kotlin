@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Currency2020</string>
+    <string name="poundLabel">Pounds</string>
+    <string name="euroLabel">Euros</string>
+    <string name="cadLabel">CAD-Dollar</string>
+    <string name="clearLabel">Clear</string>
+    <string name="convertLabel">Convert</string>
+    <string name="dollarLabel">Dollars</string>
+</resources>
