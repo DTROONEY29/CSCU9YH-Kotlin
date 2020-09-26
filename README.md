@@ -1,2 +1,2 @@
 # CSCU9YH-Kotlin
-Module practicals and assignment but written in kotlin instead of java
+Module practicals and final assignment written in Kotlin.
