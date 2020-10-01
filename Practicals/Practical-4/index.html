@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+     
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" type="text/css" href="js/jquery.mobile-1.4.5.min.css" />
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js" id="cordova-jquery"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+       <!-- <link rel="stylesheet" href="css/index.css">-->
+        <title>Hello World</title>
+    </head>
+
+    <body>
+        <header><h2>Practical 4 - Mobile app Development with Cordova and Jquery </h2></header>
+
+        <main>
+        
+            <div id="deviceready">
+                <h1>Hello World!</h1>
+                <button id="hellobutton">Say Hello</button>
+                <p id="hellop"></p>
+            </div>
+            <div data-role="tabs">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#One" data-theme="a">One</a></li>
+                        <li><a href="#Two" data-theme="a">Two</a></li>
+                    </ul>
+                </div>
+            <div id="One" class="ui-content">
+                <table data-role="table"
+                data-mode="columntoggle"
+                id="account-table"
+                class="ui-body-d ui-shadow table-stripe ui-responsive" column-button-theme="b" data-column-btn-text="Hide/Unhide Columns" data-column-popup-theme="a">
+                <thead>
+                    <tr>
+                        <th data-priority="1">Name</th>
+                        <th data-priority="2">Account No</th>
+                        <th data-priority="3">SortCode</th>
+                        <th data-priority="4">Balance</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Daniel</td>
+                        <td>657028</td>
+                        <td>00-76-98</td>
+                        <td>-£100</td>
+                    </tr>
+                    <tr>
+                        <td>Benjamin</td>
+                        <td>987654</td>
+                        <td>00-76-87</td>
+                        <td>£667</td>
+                    </tr>
+                    <tr>
+                        <td>Stevie</td>
+                        <td>123456</td>
+                        <td>00-76-87</td>
+                        <td>£1500</td>
+                    </tr>
+                    <tr>
+                        <td>Abigail</td>
+                        <td>098765</td>
+                        <td>22-56-90</td>
+                        <td>£5000</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="Two" class="ui-content">
+                <!-- Second tab -->
+
+                <button>Left</button>
+                <button>Right</button>
+                <button>Top</button>
+                <button>Bottom</button>
+            </div>
+            </div>
+                </main>
+            
+                <footer data-position="fixed">
+                   <h6>Practical 4 - Mobile app development</h6>
+                   <h6>Completed by Daniel Rooney 1/10/2020</h6>
+                </footer>
+        
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
